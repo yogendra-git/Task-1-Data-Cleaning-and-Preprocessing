@@ -1,10 +1,10 @@
 # Task-1-Data-Cleaning-and-Preprocessing
 This repository contains a data cleaning script for the Netflix Shows Dataset from Kaggle using Python and Pandas. The goal of this project is to transform raw, inconsistent data into a clean, standardized format ready for analysis or visualization.
 
- #Overview
+# **Overview**
 The Netflix dataset includes information on TV shows and movies available on Netflix, such as title, type, cast, director, country, release year, rating, and more. This project focuses on cleaning and preprocessing this data to ensure consistency and accuracy.
 
-#Tasks Performed
+# **Tasks Performed**
 
 ✅ Missing Values: Identified and handled null values using .isnull() and .fillna().
 
@@ -18,3 +18,14 @@ The Netflix dataset includes information on TV shows and movies available on Net
 
 ✅ Data Type Fixes: Ensured numeric and date columns have the correct data types (e.g., release_year as integer, duration_num as float).
 
+# **Dataset Source**
+
+Title: Netflix Shows
+
+Source: [Kaggle - Shivam Bansal](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+
+# **Tools & Libraries**
+
+Python 3.11.13
+
+pandas
